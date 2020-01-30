@@ -1,0 +1,47 @@
+.CurrencyConverterBox {
+  background-color: var(--colorTwo);
+  padding: 20px;
+  flex-basis: 100%;
+  flex-wrap: wrap;
+  display: flex;
+}
+.CurrencyConverterBox form {
+  flex-basis: 100%;
+}
+.CurrencyConverterBox form * {
+  width: 100%;
+}
+
+.CurrencyConverterBox input,
+.CurrencyConverterBox select {
+  border: 1px solid var(--colorBorder);
+  padding: 8px;
+  outline: 0;
+}
+.CurrencyConverterBox select,
+.CurrencyConverterBox input {
+  background-color: var(--colorTwo);
+  color: var(--colorText);
+  margin-bottom: 20px;
+}
+
+.CurrencyConverterBox button {
+  background-color: var(--colorButton);
+  color: var(--colorText);
+  padding: 8px;
+  border: none;
+  transition: 0.5s;
+  cursor: pointer;
+  outline: 0;
+}
+.CurrencyConverterBox button:hover {
+  background-color: #3c679e;
+}
+.result {
+  padding-top: 10px;
+  flex-basis: 100%;
+  min-height: 40px;
+}
+.result p {
+  font-size: 2rem;
+}

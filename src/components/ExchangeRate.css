@@ -1,0 +1,28 @@
+.ExchangeRate {
+  background-color: var(--colorTwo);
+  padding: 20px;
+  margin-top: 30px;
+  flex-basis: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  color: var(--colorText);
+}
+
+.ExchangeRate .CurrentDate {
+  font-weight: 100;
+  font-size: 2rem;
+}
+.ExchangeRate h1 {
+  flex-basis: 100%;
+}
+.ExchangeRate table {
+  flex-basis: 100%;
+  font-size: 1.3rem;
+  text-align: center;
+}
+.ExchangeRate td,
+.ExchangeRate th {
+  width: 33.33%;
+  padding: 4px;
+  border-bottom: 1px solid var(--colorBorder);
+}

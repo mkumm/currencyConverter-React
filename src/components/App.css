@@ -1,0 +1,24 @@
+.wrapper {
+  width: 100%;
+  /*max-width: 1025px;*/
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 0;
+  color: var(--colorText);
+}
+@media (min-width: 1200px) {
+  .wrapper {
+    justify-content: space-evenly;
+  }
+  .ExchangeRate,
+  .CurrencyConverterBox {
+    flex-basis: 45%;
+  }
+  .ExchangeRate {
+    margin-top: 0;
+  }
+  .CurrencyConverterBox {
+    align-content: flex-start;
+  }
+}
