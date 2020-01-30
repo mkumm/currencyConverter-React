@@ -29,8 +29,8 @@ class CurrencyConverter extends React.Component {
   handleSubmit = e => {
     e.preventDefault();
     const convertedWorth = (
-      (parseInt(this.state.worth) * parseInt(this.state.myCurrency)) /
-      parseInt(this.state.WantedCurrency)
+      this.state.worth *
+      (this.state.myCurrency / this.state.WantedCurrency)
     ).toFixed(2);
     const result = `${this.state.worth} ${this.state.myCurrencyCode} = ${convertedWorth} ${this.state.WantedCurrencyCode} `;
     this.setState({
