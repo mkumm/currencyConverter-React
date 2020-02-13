@@ -3,7 +3,7 @@ import CurrencyConverter from "./CurrencyConverter.js";
 import ExchangeRate from "./ExchangeRate.js";
 import "./App.css";
 
-const API = "http://api.nbp.pl/api/exchangerates/tables/a/";
+const API = "https://api.nbp.pl/api/exchangerates/tables/a/";
 
 class App extends React.Component {
   state = {
